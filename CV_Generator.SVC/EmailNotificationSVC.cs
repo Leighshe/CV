@@ -67,7 +67,7 @@ namespace CV_Generator.SVC
             try
             {
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
-                smtpClient.Credentials = new System.Net.NetworkCredential("pdzimbanete@gmail.com", "pd7445264");
+                smtpClient.Credentials = new System.Net.NetworkCredential("leighshebashing1@gmail.com", "Sheyshey");
                 smtpClient.EnableSsl = true;
                 smtpClient.Timeout = 200000;
                 MailMessage mailMessage = new MailMessage();
